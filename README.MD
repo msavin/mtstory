@@ -49,4 +49,4 @@ Meteor-React and Meteor-Blaze share a lot of parts: minimongo, tracker, etc. In 
 
 ## What Do We Do Next?
 
-Meteor Toys is well integrated into the classic Meteor stack to make your development experience even more enjoyable. Virtually everyone who gave Meteor Toys a shot loves it, and now it's your turn. Try Meteor Toys today and let me know how they work for you. There's nothing wrong with a a bit of play while you work!
+Meteor Toys is well integrated into the classic Meteor stack to make your development experience even more enjoyable. Virtually everyone who gave Meteor Toys a shot loves it, and now it's your turn. Try Meteor Toys today and let me know how they work for you. There's nothing wrong with a a bit of play time while you work! 😎
