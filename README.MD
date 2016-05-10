@@ -9,19 +9,19 @@ Meteor Toys is the original development tools for the Meteor web development fra
 
 <img src="https://raw.githubusercontent.com/msavin/mtstory/master/MONGOL.gif">
 
-The Meteor Toys packages sit quietly with-in your app, only to reveal their presence when you press Control + M. Normally, the functionality they provide could be seen as a security risk, but that is not a problem because they are as debugOnly packages. This means they only work when your app is in development mode, and Meteor will exclude them from your production build.
+The Meteor Toys packages sit quietly with-in your app, only to reveal their presence when you press Control + M. Normally, the functionality they provide could be seen as a security risk, but that is not a problem because they are debugOnly packages. This means they only work when your app is in development mode because Meteor will exclude them from your production build.
 
-Meteor Toys comes in a free and premium edition and are used by thousands of Meteor developers. Customers include everyone from college students and development hobbyists to established businesses and government agencies. The common denominator is they're all people who want to get things done faster.
+Meteor Toys comes in a free and premium edition and are used by thousands of Meteor developers. Customers include everyone from college students and development hobbyists to established businesses and government agencies. The common denominator between these different groups of people is they all just want to get things done faster.
 
 ## Making All the Things Handier
 
-Meteor Toys 2 was all about covering territory and focusing on extensibility with ToyKit and ThemeKit. With Meteor Toys 3, the focus shifted to improving the existing functionality and giving you the small changes that make the big differences.
+Meteor Toys 2 was all about covering territory and focusing on customization with ToyKit and ThemeKit. With Meteor Toys 3, the focus shifted to improving the existing functionality and giving you the small changes that make the big differences.
 
 For example, the Authenticate toy allows you to impersonate an account just by clicking on it. With the new update, the Toy will automatically detect the latest 15 accounts in your database, and you can also run a manual search. These two features are especially handy when you’re using a seeded or cloned database. Additonally, when you impersonate an account while being signed into another, terminating the impersonation session will revert you to the previously authenticated account. It's too easy.
 
 <img src="https://raw.githubusercontent.com/msavin/mtstory/master/ACCOUNTS.gif">
 
-The Pub and Method Toys take it a step further from letting you visualize and run your publications and methods. Now, whenever you enter the arguments for them, Meteor Toys will automatically save them to localStorage. That way, you can easily tweak and re-run the functions as needed. When you run them, their results will be posted in the Result toy. The Result toy will also display the code you ran to get that result.
+Meanwhile, the Method and Pub Toys take it a step further from letting you visualize and run your methods and publications. Now, whenever you enter the arguments for them, Meteor Toys will automatically save them to localStorage. That way, you can easily tweak and re-run the functions as needed. When you run the Method or Shell Toys, their results will be posted in the Result toy. The Result Toy will also display the code you ran to get that result.
 
 <img src="https://raw.githubusercontent.com/msavin/mtstory/master/METHOD.gif">
 
@@ -39,14 +39,14 @@ Meteor Toys has been dubbed “insanely handy,” but up until now, I’m afraid
 
 <img src="https://raw.githubusercontent.com/msavin/mtstory/master/MOBILE.png">
 
-When Meteor Toys detects iPhone Mobile Safari or Cordova, it will load up the mobile interface instead of the desktop interface. This is completely optional with the `meteortoys:mobile` package.  Because Cordova may block your access to keyboard shortcuts, you can combine it with the new `meteortoys:toggle` package. The Meteor Toys Toggle gives you a quick way to open the toys with your a mouse hover or touch action.
+When Meteor Toys detects iPhone Mobile Safari or Cordova, it will load up the mobile interface instead of the desktop interface. This is completely optional with the `meteortoys:mobile` package.  Because Cordova may block your access to keyboard shortcuts, you can combine it with the new `meteortoys:toggle` package. The Meteor Toys Toggle gives you a quick way to open the Toys with a mouse hover or touch action.
 
 ## Meteor 1.3 and React Compatibility
 
-Meteor Toys has improved compatibility with Meteor 1.3, and has been tested to work with the standard Meteor-Blaze and Meteor-React apps. While Meteor Toys continues to use Blaze for the view layer, it can easily accommodate people who prefer React.
+Meteor Toys 3 has improved compatibility with Meteor 1.3, and has been tested to work with the standard Meteor-Blaze and Meteor-React apps. While Meteor Toys continues to use Blaze for the view layer, it can easily accommodate people who prefer React.
 
-Meteor-React and Meteor-Blaze share a lot of parts: minimongo, tracker, etc. In order to get Meteor Toys to work with Meteor-React, we only need to add the Blaze library for rendering. When using Meteor Toys, it gets included in development mode and then removed along with Meteor Toys when you build for production.
+Meteor-React and Meteor-Blaze have many common parts: minimongo, tracker, etc. In order to get Meteor Toys to work with Meteor-React, we'd only need to add the Blaze library for rendering. When you use Meteor Toys, it automatically gets included in development mode and then removed along with Meteor Toys when you build for production.
 
 ## What Do We Do Next?
 
-Meteor Toys is well integrated into the classic Meteor stack to make your development experience even more enjoyable. Virtually everyone who gave Meteor Toys a shot loves it, and now it's your turn. Try Meteor Toys today and let me know how they work for you. There's nothing wrong with a a bit of play time while you work! 😎
+Meteor Toys is well integrated into the classic Meteor stack to help you get things done faster with more fun. Virtually everyone who gave Meteor Toys a shot loves it, and now it's your turn. Try Meteor Toys today and let me know how they work for you. There's nothing wrong with a a bit of play time while you work! 😎
