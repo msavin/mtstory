@@ -17,7 +17,7 @@ Meteor Toys come in a free and premium edition, and are used by an estimate of t
 
 Meteor Toys 2 were all about covering territory and focusing on extensibility with ToyKit and ThemeKit. With Meteor Toys 3, the focus shifted to improving the existing functionality and giving you the small changes that make the big differences.
 
-For example, the Authenticate toy allows you to impersonate an account by clicking on it. With the new update, the Toy will automatically detect the latest 15 accounts in your database, and you can also run a manual search with a username, email or _id. These features are especially handy when you’re using a seeded or cloned database. Additonally, when you impersonate an account while being signed into another, terminating the impersonation session will revert you to the previously authenticated account. It's too easy.
+For example, the Authenticate toy allows you to impersonate an account just by clicking on it. With the new update, the Toy will automatically detect the latest 15 accounts in your database, and you can also run a manual search with a username, email or _id. These features are especially handy when you’re using a seeded or cloned database. Additonally, when you impersonate an account while being signed into another, terminating the impersonation session will revert you to the previously authenticated account. It's too easy.
 
 <img src="https://raw.githubusercontent.com/msavin/mtstory/master/ACCOUNTS.gif">
 
